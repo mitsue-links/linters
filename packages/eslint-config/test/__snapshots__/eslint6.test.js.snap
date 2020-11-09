@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint 6.2.0 6.2.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.2.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      Object {
+        "line": 10,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      Object {
+        "line": 12,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      Object {
+        "line": 16,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.4.0 6.4.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.4.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 7,
+        "ruleId": "prefer-regex-literals",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "default-param-last",
+        "severity": 2,
+      },
+      Object {
+        "line": 27,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 31,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 35,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.5.0 6.5.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.5.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 7,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.6.0 6.6.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.6.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      Object {
+        "line": 7,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      Object {
+        "line": 18,
+        "ruleId": "no-unsafe-negation",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.7.0 6.7.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.7.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 15,
+        "ruleId": "grouped-accessor-pairs",
+        "severity": 2,
+      },
+      Object {
+        "line": 30,
+        "ruleId": "no-constructor-return",
+        "severity": 2,
+      },
+      Object {
+        "line": 48,
+        "ruleId": "no-dupe-else-if",
+        "severity": 2,
+      },
+      Object {
+        "line": 67,
+        "ruleId": "no-setter-return",
+        "severity": 2,
+      },
+      Object {
+        "line": 78,
+        "ruleId": "prefer-exponentiation-operator",
+        "severity": 2,
+      },
+      Object {
+        "line": 88,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      Object {
+        "line": 90,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      Object {
+        "line": 92,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      Object {
+        "line": 94,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      Object {
+        "line": 96,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

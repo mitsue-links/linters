@@ -1,0 +1,27 @@
+{
+  "name": "@mitsue/eslint-config",
+  "version": "3.0.0",
+  "description": "eslint config for Mitsue-Links",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js",
+    "package.json"
+  ],
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "Mitsue",
+    "Mitsue-Links",
+    "MLC"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^7.4.0"
+  }
+}

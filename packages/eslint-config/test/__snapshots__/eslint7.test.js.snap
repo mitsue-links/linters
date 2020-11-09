@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint 7.0.0 7.0.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "7.0.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 7,
+        "ruleId": "default-case-last",
+        "severity": 2,
+      },
+      Object {
+        "line": 18,
+        "ruleId": "default-case-last",
+        "severity": 2,
+      },
+      Object {
+        "line": 31,
+        "ruleId": "no-useless-backreference",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 7.1.0 7.1.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "7.1.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "no-loss-of-precision",
+        "severity": 1,
+      },
+      Object {
+        "line": 12,
+        "ruleId": "no-loss-of-precision",
+        "severity": 1,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 7.3.0 7.3.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "7.3.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "no-promise-executor-return",
+        "severity": 2,
+      },
+      Object {
+        "line": 25,
+        "ruleId": "no-unreachable-loop",
+        "severity": 1,
+      },
+    ],
+  },
+]
+`;

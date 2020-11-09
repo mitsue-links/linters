@@ -1,0 +1,26 @@
+name: lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint (node.js 12 on ubuntu-latest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node.js 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build --if-present
+      - name: Check licenses
+        run: npm run jsgl
+      - name: Run lints
+        run: npm run lint

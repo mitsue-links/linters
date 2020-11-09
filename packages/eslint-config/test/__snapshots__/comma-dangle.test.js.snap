@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comma-dangle_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "comma-dangle_error.js",
+    "messages": Array [
+      Object {
+        "line": 14,
+        "ruleId": "comma-dangle",
+        "severity": 2,
+      },
+      Object {
+        "line": 20,
+        "ruleId": "comma-dangle",
+        "severity": 2,
+      },
+      Object {
+        "line": 32,
+        "ruleId": "comma-dangle",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fsg_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "fsg_error.js",
+    "messages": Array [
+      Object {
+        "line": 3,
+        "ruleId": "no-implicit-globals",
+        "severity": 1,
+      },
+      Object {
+        "line": 3,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+      Object {
+        "line": 6,
+        "ruleId": "no-implicit-globals",
+        "severity": 1,
+      },
+      Object {
+        "line": 6,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+      Object {
+        "line": 10,
+        "ruleId": "one-var",
+        "severity": 2,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "no-implicit-globals",
+        "severity": 1,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "no-unused-expressions",
+        "severity": 2,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "padding-line-between-statements",
+        "severity": 2,
+      },
+      Object {
+        "line": 13,
+        "ruleId": "no-sequences",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+      Object {
+        "line": 23,
+        "ruleId": "brace-style",
+        "severity": 2,
+      },
+      Object {
+        "line": 23,
+        "ruleId": "brace-style",
+        "severity": 2,
+      },
+      Object {
+        "line": 32,
+        "ruleId": "camelcase",
+        "severity": 2,
+      },
+      Object {
+        "line": 46,
+        "ruleId": "radix",
+        "severity": 2,
+      },
+      Object {
+        "line": 47,
+        "ruleId": "radix",
+        "severity": 2,
+      },
+      Object {
+        "line": 55,
+        "ruleId": "no-eval",
+        "severity": 2,
+      },
+      Object {
+        "line": 57,
+        "ruleId": "no-new-func",
+        "severity": 2,
+      },
+      Object {
+        "line": 65,
+        "ruleId": "no-unused-vars",
+        "severity": 2,
+      },
+      Object {
+        "line": 69,
+        "ruleId": "no-implied-eval",
+        "severity": 2,
+      },
+      Object {
+        "line": 80,
+        "ruleId": "no-caller",
+        "severity": 2,
+      },
+      Object {
+        "line": 83,
+        "ruleId": "no-restricted-syntax",
+        "severity": 2,
+      },
+      Object {
+        "line": 83,
+        "ruleId": "no-with",
+        "severity": 2,
+      },
+      Object {
+        "line": 94,
+        "ruleId": "no-octal",
+        "severity": 2,
+      },
+      Object {
+        "line": 96,
+        "ruleId": "no-restricted-globals",
+        "severity": 2,
+      },
+      Object {
+        "line": 97,
+        "ruleId": "no-restricted-globals",
+        "severity": 2,
+      },
+      Object {
+        "line": 99,
+        "ruleId": "no-restricted-properties",
+        "severity": 2,
+      },
+      Object {
+        "line": 103,
+        "ruleId": "no-restricted-properties",
+        "severity": 2,
+      },
+      Object {
+        "line": 104,
+        "ruleId": "no-restricted-properties",
+        "severity": 2,
+      },
+      Object {
+        "line": 105,
+        "ruleId": "no-restricted-properties",
+        "severity": 2,
+      },
+      Object {
+        "line": 114,
+        "ruleId": "eqeqeq",
+        "severity": 2,
+      },
+      Object {
+        "line": 119,
+        "ruleId": "strict",
+        "severity": 2,
+      },
+      Object {
+        "line": 126,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 126,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 128,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 128,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 129,
+        "ruleId": "no-mixed-spaces-and-tabs",
+        "severity": 2,
+      },
+      Object {
+        "line": 129,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 130,
+        "ruleId": "no-mixed-spaces-and-tabs",
+        "severity": 2,
+      },
+      Object {
+        "line": 130,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 131,
+        "ruleId": "no-mixed-spaces-and-tabs",
+        "severity": 2,
+      },
+      Object {
+        "line": 131,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 132,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 132,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 134,
+        "ruleId": "indent",
+        "severity": 2,
+      },
+      Object {
+        "line": 134,
+        "ruleId": "no-tabs",
+        "severity": 1,
+      },
+      Object {
+        "line": 143,
+        "ruleId": "one-var",
+        "severity": 2,
+      },
+      Object {
+        "line": 143,
+        "ruleId": "comma-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 143,
+        "ruleId": "comma-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 146,
+        "ruleId": "key-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 147,
+        "ruleId": "key-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 151,
+        "ruleId": "key-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 152,
+        "ruleId": "key-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 156,
+        "ruleId": "switch-colon-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 159,
+        "ruleId": "switch-colon-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 162,
+        "ruleId": "switch-colon-spacing",
+        "severity": 2,
+      },
+      Object {
+        "line": 166,
+        "ruleId": "space-infix-ops",
+        "severity": 2,
+      },
+      Object {
+        "line": 166,
+        "ruleId": "space-infix-ops",
+        "severity": 2,
+      },
+      Object {
+        "line": 166,
+        "ruleId": "space-infix-ops",
+        "severity": 2,
+      },
+      Object {
+        "line": 168,
+        "ruleId": "curly",
+        "severity": 2,
+      },
+      Object {
+        "line": 169,
+        "ruleId": "nonblock-statement-body-position",
+        "severity": 2,
+      },
+      Object {
+        "line": 171,
+        "ruleId": "space-unary-ops",
+        "severity": 2,
+      },
+      Object {
+        "line": 173,
+        "ruleId": "space-unary-ops",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

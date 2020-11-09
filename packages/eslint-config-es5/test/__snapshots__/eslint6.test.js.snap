@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint 6.7.0 6.7.0_fail.js 1`] = `
+Array [
+  Object {
+    "filePath": "6.7.0_fail.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "Parsing error: Unexpected token *",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
