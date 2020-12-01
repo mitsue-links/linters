@@ -1,6 +1,6 @@
 # @mitsue/eslint-config-es5
 
-[ESLint](https://eslint.org/)の基本設定ファイルです。ES5を対象にしています。
+[ESLint](https://eslint.org/)の基本設定ファイルです。ECMAScript 5を対象にしています。
 
 ## インストール
 
@@ -75,6 +75,8 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ### 次期リリース
 
+- ECMAScript 5専用に変更
+    - parserOptionsのecmaVersionを5に変更
 - 対象とするESLint（peerDependencies）を^7.15.0に変更
 - 以下のenvを無効化
     - commonjs

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ECMAScript 2015 es2015_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "es2015_error.js",
+    "messages": Array [
+      Object {
+        "line": 2,
+        "ruleId": "no-undef",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ECMAScript 2015 es2015_fail.js 1`] = `
+Array [
+  Object {
+    "filePath": "es2015_fail.js",
+    "messages": Array [
+      Object {
+        "line": 1,
+        "ruleId": "Parsing error: The keyword 'const' is reserved",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
