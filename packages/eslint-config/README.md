@@ -82,7 +82,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 ### 2.0.0
 
 - 対象とするESLint（peerDependencies）を^7.4.0に変更
-- parserOptionsのecmaVersionをes2020に変更
+- parserOptionsのecmaVersionを2020に変更
 - 以下のenvを有効化
     - es2020
 - ルールに関する調整
