@@ -9,7 +9,7 @@ module.exports = {
     env: {
         browser: true,
         node: true,
-        commonjs: true,
+        commonjs: false,
         'shared-node-browser': false,
         es6: true,
         es2017: true,
