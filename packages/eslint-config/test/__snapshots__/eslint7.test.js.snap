@@ -64,3 +64,23 @@ Array [
   },
 ]
 `;
+
+exports[`ESLint 7.14.0 7.14.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "7.14.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 2,
+        "ruleId": "no-nonoctal-decimal-escape",
+        "severity": 2,
+      },
+      Object {
+        "line": 3,
+        "ruleId": "no-nonoctal-decimal-escape",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

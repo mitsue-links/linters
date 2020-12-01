@@ -333,6 +333,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-new-wrappers
         'no-new-wrappers': 2,
 
+        // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
+        'no-nonoctal-decimal-escape': 2,
+
         // https://eslint.org/docs/rules/no-octal
         'no-octal': 2,
 

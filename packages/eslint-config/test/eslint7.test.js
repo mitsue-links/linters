@@ -51,3 +51,12 @@ describe('ESLint 7.3.0', () => {
         expect(data).toMatchSnapshot();
     });
 });
+
+describe('ESLint 7.14.0', () => {
+    test('7.14.0_error.js', async () => {
+        const filePath = '7.14.0_error.js';
+        const data = await lintFile(path.join('fixtures', 'eslint', filePath));
+
+        expect(data).toMatchSnapshot();
+    });
+});
