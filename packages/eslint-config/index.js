@@ -166,6 +166,9 @@ module.exports = {
             enforceForOrderingRelations: true,
         }],
 
+        // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+        'no-unsafe-optional-chaining': 2,
+
         // https://eslint.org/docs/rules/no-useless-backreference
         'no-useless-backreference': 2,
 

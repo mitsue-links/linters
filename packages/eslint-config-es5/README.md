@@ -60,7 +60,7 @@ plugin:prettier/recommendedは必ず最後に記述してください。そう�
 
 |@mitsue/eslint-config-es5|ESLint|
 |-:|-:|
-|次期リリース|^7.14.0|
+|次期リリース|^7.15.0|
 |3.0.0|^7.4.0|
 |2.0.0|^7.4.0|
 |1.0.4|^7.1.0|
@@ -75,7 +75,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ### 次期リリース
 
-- 対象とするESLint（peerDependencies）を^7.14.0に変更
+- 対象とするESLint（peerDependencies）を^7.15.0に変更
 - 以下のenvを無効化
     - commonjs
 - ルールに関する調整
