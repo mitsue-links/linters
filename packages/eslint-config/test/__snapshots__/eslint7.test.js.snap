@@ -84,3 +84,18 @@ Array [
   },
 ]
 `;
+
+exports[`ESLint 7.15.0 7.15.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "7.15.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 3,
+        "ruleId": "no-unsafe-optional-chaining",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
