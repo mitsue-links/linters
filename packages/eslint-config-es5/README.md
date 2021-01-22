@@ -40,7 +40,7 @@ npm i --save-dev eslint @mitsue/eslint-config-es5
 必要なパッケージをインストールします。
 
 ```sh
-npm i --save--dev eslint-config-prettier eslint-plugin-prettier
+npm i --save--dev eslint-config-prettier
 ```
 
 .eslintrcを調整します。
@@ -49,12 +49,12 @@ npm i --save--dev eslint-config-prettier eslint-plugin-prettier
 {
   "extends": [
     "@mitsue/eslint-config-es5",
-    "plugin:prettier/recommended"
+    "prettier"
   ]
 }
 ```
 
-plugin:prettier/recommendedは必ず最後に記述してください。そうでないと、plugin:prettier/recommendedが無効にしたフォーマットに関するルールが他の設定（@mitsue/eslint-config-es5など）によって再度有効化されてしまいます。
+prettierはextendsの最後に記述します。
 
 ## ESLintとの対応関係
 
