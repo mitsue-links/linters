@@ -9,7 +9,7 @@
     "husky": "^4.3.0",
     "jest": "^26.6.3",
     "js-green-licenses": "^3.0.0",
-    "lerna": "^3.22.1"
+    "lerna": "^4.0.0"
   },
   "dependencies": {
     "@mitsue/eslint-config": "file:packages\\eslint-config",
