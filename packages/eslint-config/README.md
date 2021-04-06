@@ -20,7 +20,24 @@ npm i --save-dev eslint @mitsue/eslint-config
 }
 ```
 
+### ECMAScript Modulesを使う場合
+
+.eslintrc.jsonを調整します。parserOptionsに`"sourceType": "module"`を記載します。
+
+```json
+{
+  "extends": [
+    "@mitsue"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
+```
+
 ### 改行コードがCR+LFの場合
+
+.eslintrc.jsonを調整します。rulesのlinebreak-styleに`[2, "windows"]`を記載します。
 
 ```json
 {
@@ -43,7 +60,7 @@ npm i --save-dev eslint @mitsue/eslint-config
 npm i --save--dev eslint-config-prettier
 ```
 
-.eslintrc.jsonを調整します。
+.eslintrc.jsonを調整します。extendsの最後にprettierとprettier/prettierを記載します。
 
 ```json
 {
@@ -54,8 +71,6 @@ npm i --save--dev eslint-config-prettier
   ]
 }
 ```
-
-prettierおよびprettier/prettierはextendsの最後に記述します。
 
 ## ESLintとの対応関係
 
@@ -70,7 +85,7 @@ prettierおよびprettier/prettierはextendsの最後に記述します。
 
 ESLintは未知のルールが設定されているとエラーを報告します。
 
-古いバージョンのESLintを利用していないか（このパッケージのpeerDependencyに指定されているバージョンと合致しているかどうか）ご確認ください。
+古いバージョンのESLintを利用していないか（このパッケージのpeerDependenciesに指定されているバージョンと合致しているかどうか）ご確認ください。
 
 ## 変更履歴
 
