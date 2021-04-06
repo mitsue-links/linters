@@ -92,6 +92,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 ### 次期リリース
 
 - 対象とするESLint（peerDependencies）を^7.15.0に変更
+- parserOptionsのecmaVersionを2021に変更
 - 以下のenvを無効化
     - commonjs
 - ルールに関する調整
