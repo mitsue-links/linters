@@ -11,6 +11,7 @@ module.exports = {
         node: true,
         worker: true,
         serviceworker: true,
+        es2021: true,
     },
     reportUnusedDisableDirectives: true,
     /*

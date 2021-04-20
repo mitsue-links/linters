@@ -9,6 +9,10 @@ module.exports = {
         ecmaVersion: 5,
     },
 
+    env: {
+        es2021: false,
+    },
+
     /*
      * see also:
      * http://eslint.org/docs/rules/
