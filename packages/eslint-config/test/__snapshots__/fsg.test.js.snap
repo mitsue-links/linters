@@ -331,7 +331,7 @@ Array [
         "severity": 2,
       },
       Object {
-        "line": 175,
+        "line": 176,
         "ruleId": "curly",
         "severity": 2,
       },
