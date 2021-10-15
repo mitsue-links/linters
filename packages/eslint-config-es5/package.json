@@ -27,6 +27,6 @@
     "@mitsue/eslint-config": "^4.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=7.15.0"
+    "eslint": ">=7.30.0"
   }
 }

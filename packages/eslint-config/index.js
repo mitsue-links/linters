@@ -4,7 +4,7 @@ module.exports = {
      * https://eslint.org/docs/user-guide/configuring
      */
     parserOptions: {
-        ecmaVersion: 2021,
+        ecmaVersion: 'latest',
     },
     env: {
         browser: true,
