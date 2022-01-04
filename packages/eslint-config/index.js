@@ -180,6 +180,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-unsafe-optional-chaining
         'no-unsafe-optional-chaining': 2,
 
+        // https://eslint.org/docs/rules/no-unused-private-class-members
+        'no-unused-private-class-members': 2,
+
         // https://eslint.org/docs/rules/no-unused-vars
         'no-unused-vars': [
             2,
@@ -706,6 +709,9 @@ module.exports = {
 
         // https://eslint.org/docs/rules/prefer-numeric-literals
         'prefer-numeric-literals': 2,
+
+        // https://eslint.org/docs/rules/prefer-object-has-own
+        'prefer-object-has-own': 0, // enable when stable version of safari support Object.hasOwn
 
         // https://eslint.org/docs/rules/prefer-object-spread
         'prefer-object-spread': 2,
