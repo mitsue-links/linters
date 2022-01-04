@@ -1,6 +1,6 @@
 {
   "name": "@mitsue/eslint-config",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "eslint config for Mitsue-Links",
   "main": "index.js",
   "files": [

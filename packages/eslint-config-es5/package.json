@@ -1,6 +1,6 @@
 {
   "name": "@mitsue/eslint-config-es5",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "eslint config of ES5 for Mitsue-Links",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@mitsue/eslint-config": "^4.0.1"
+    "@mitsue/eslint-config": "^4.1.0"
   },
   "peerDependencies": {
     "eslint": ">=7.30.0"
