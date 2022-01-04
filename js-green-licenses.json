@@ -7,5 +7,8 @@
     "Apache-2.0",
     "W3C-20150513",
     "CC0-1.0"
+  ],
+  "packageAllowlist": [
+    "root"
   ]
 }

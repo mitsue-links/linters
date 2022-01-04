@@ -13,7 +13,7 @@
     "@mitsue/eslint-config-es5": "file:packages\\eslint-config-es5"
   },
   "scripts": {
-    "jsgl": "lerna exec -- jsgl -l .",
+    "jsgl": "jsgl -l .",
     "lerna": "lerna",
     "lint": "eslint . --ignore-path _dot_eslintignore",
     "test": "jest"
