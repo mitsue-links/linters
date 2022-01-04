@@ -61,7 +61,7 @@ npm i --save--dev eslint-config-prettier
 |@mitsue/eslint-config-es5|ESLint|
 |-:|-:|
 |未リリース|>=7.30.0|
-|4.0.1|^7.15.0|
+|4.1.0|^7.15.0|
 |3.0.0|^7.4.0|
 |2.0.0|^7.4.0|
 |1.0.4|^7.1.0|
@@ -74,7 +74,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ## 変更履歴
 
-### 未リリース
+### 4.1.0
 
 - 依存パッケージ（@mitsue/eslint-config）更新
 - 対象とするESLint（peerDependencies）を>=7.30.0に変更
