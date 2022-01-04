@@ -2,18 +2,18 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "@types/eslint": "^8.2.0",
-    "eslint": "^8.0.1",
-    "jest": "^27.2.5",
-    "js-green-licenses": "^3.0.0",
+    "@types/eslint": "^8.2.1",
+    "eslint": "^8.6.0",
+    "jest": "^27.4.5",
+    "js-green-licenses": "^3.0.1",
     "lerna": "^4.0.0"
   },
   "dependencies": {
-    "@mitsue/eslint-config": "file:packages\\eslint-config",
-    "@mitsue/eslint-config-es5": "file:packages\\eslint-config-es5"
+    "@mitsue/eslint-config": "file:packages/eslint-config",
+    "@mitsue/eslint-config-es5": "file:packages/eslint-config-es5"
   },
   "scripts": {
-    "jsgl": "lerna exec -- jsgl -l .",
+    "jsgl": "jsgl -l .",
     "lerna": "lerna",
     "lint": "eslint . --ignore-path _dot_eslintignore",
     "test": "jest"
