@@ -9,8 +9,8 @@
     "lerna": "^4.0.0"
   },
   "dependencies": {
-    "@mitsue/eslint-config": "file:packages\\eslint-config",
-    "@mitsue/eslint-config-es5": "file:packages\\eslint-config-es5"
+    "@mitsue/eslint-config": "file:packages/eslint-config",
+    "@mitsue/eslint-config-es5": "file:packages/eslint-config-es5"
   },
   "scripts": {
     "jsgl": "jsgl -l .",
