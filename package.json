@@ -6,7 +6,7 @@
     "eslint": "^8.6.0",
     "jest": "^27.4.5",
     "js-green-licenses": "^3.0.1",
-    "lerna": "^4.0.0"
+    "lerna": "^5.6.1"
   },
   "dependencies": {
     "@mitsue/eslint-config": "file:packages/eslint-config",
