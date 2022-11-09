@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`regexp_error.js 1`] = `
-Array [
-  Object {
+[
+  {
     "filePath": "regexp_error.js",
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "line": 5,
         "ruleId": "require-unicode-regexp",
         "severity": 2,
       },
-      Object {
+      {
         "line": 13,
         "ruleId": "prefer-named-capture-group",
         "severity": 2,
       },
-      Object {
+      {
         "line": 13,
         "ruleId": "prefer-named-capture-group",
         "severity": 2,
       },
-      Object {
+      {
         "line": 13,
         "ruleId": "prefer-named-capture-group",
         "severity": 2,

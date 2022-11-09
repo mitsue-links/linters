@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`comma-dangle_error.js 1`] = `
-Array [
-  Object {
+[
+  {
     "filePath": "comma-dangle_error.js",
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "line": 14,
         "ruleId": "comma-dangle",
         "severity": 2,
       },
-      Object {
+      {
         "line": 20,
         "ruleId": "comma-dangle",
         "severity": 2,
@@ -21,11 +21,11 @@ Array [
 `;
 
 exports[`comma-dangle_fail.js 1`] = `
-Array [
-  Object {
+[
+  {
     "filePath": "comma-dangle_fail.js",
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "line": 16,
         "ruleId": "Parsing error: Unexpected token )",
         "severity": 2,
