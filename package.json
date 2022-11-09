@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/eslint": "^8.2.1",
     "eslint": "^8.6.0",
-    "jest": "^27.4.5",
+    "jest": "^29.3.1",
     "js-green-licenses": "^3.0.1"
   }
 }

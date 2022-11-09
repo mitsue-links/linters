@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ESLint 8.0.0 8.0.0_error.js 1`] = `
-Array [
-  Object {
+[
+  {
     "filePath": "8.0.0_error.js",
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "line": 3,
         "ruleId": "class-methods-use-this",
         "severity": 1,
       },
-      Object {
+      {
         "line": 7,
         "ruleId": "class-methods-use-this",
         "severity": 1,

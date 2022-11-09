@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`padding-lines_error.js 1`] = `
-Array [
-  Object {
+[
+  {
     "filePath": "padding-lines_error.js",
-    "messages": Array [
-      Object {
+    "messages": [
+      {
         "line": 15,
         "ruleId": "vars-on-top",
         "severity": 2,
       },
-      Object {
+      {
         "line": 16,
         "ruleId": "padding-line-between-statements",
         "severity": 2,
       },
-      Object {
+      {
         "line": 19,
         "ruleId": "vars-on-top",
         "severity": 2,
       },
-      Object {
+      {
         "line": 20,
         "ruleId": "padding-line-between-statements",
         "severity": 2,
