@@ -31,11 +31,10 @@
 
 ## メンテナンス
 
-このリポジトリでは[lerna](https://github.com/lerna/lerna)を利用しています。以下のコマンドを実行すると各パッケージの準備が完了します。
+このリポジトリでは[npm workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces)を利用しています。以下のコマンドを実行すると各パッケージの準備が完了します。
 
 ```sh
-npm i
-npm run lerna bootstrap
+npm ci
 ```
 
 このリポジトリではGit Flowは採用していません。mainブランチが常に正です。ブランチはmainから切り出し、マージリクエストもmainに対して出してください。リリースできない状態のものはmainブランチにはマージしないでください。
