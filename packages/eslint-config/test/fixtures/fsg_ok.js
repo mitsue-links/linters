@@ -85,19 +85,6 @@
 }());
 /* eslint-enable no-unused-vars */
 
-// 5-1
-/* eslint-disable prefer-numeric-literals */
-(function () {
-    'use strict';
-
-    parseInt('255', 10);
-    parseInt('255px', 10);
-    parseInt('FF', 16);
-    parseInt('377', 8);
-    parseInt('11111111', 2);
-}());
-/* eslint-enable prefer-numeric-literals */
-
 // 6-1
 (function () {
     'use strict';
