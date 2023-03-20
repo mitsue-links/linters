@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`padding-lines_error.mjs 1`] = `
+[
+  {
+    "filePath": "padding-lines_error.mjs",
+    "messages": [
+      {
+        "line": 13,
+        "ruleId": "vars-on-top",
+        "severity": 2,
+      },
+      {
+        "line": 14,
+        "ruleId": "padding-line-between-statements",
+        "severity": 2,
+      },
+      {
+        "line": 17,
+        "ruleId": "vars-on-top",
+        "severity": 2,
+      },
+      {
+        "line": 18,
+        "ruleId": "padding-line-between-statements",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
