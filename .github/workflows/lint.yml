@@ -11,7 +11,7 @@ jobs:
     name: Lint (node.js 14 on ubuntu-latest)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.4.0
+      - uses: actions/checkout@v4.0.0
       - name: Use node.js 14
         uses: actions/setup-node@v3.6.0
         with:
