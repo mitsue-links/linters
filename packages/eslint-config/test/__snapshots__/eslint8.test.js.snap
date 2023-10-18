@@ -19,3 +19,48 @@ exports[`ESLint 8.0.0 8.0.0_error.js 1`] = `
   },
 ]
 `;
+
+exports[`ESLint 8.1.0 8.1.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "8.1.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 6,
+        "ruleId": "no-unused-private-class-members",
+        "severity": 2,
+      },
+      Object {
+        "line": 8,
+        "ruleId": "no-unused-private-class-members",
+        "severity": 2,
+      },
+      Object {
+        "line": 12,
+        "ruleId": "no-unused-private-class-members",
+        "severity": 2,
+      },
+      Object {
+        "line": 14,
+        "ruleId": "no-unused-private-class-members",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 8.5.0 8.5.0_error.js 1`] = `
+Array [
+  Object {
+    "filePath": "8.5.0_error.js",
+    "messages": Array [
+      Object {
+        "line": 12,
+        "ruleId": "prefer-object-has-own",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

@@ -76,6 +76,7 @@ npm i --save--dev eslint-config-prettier
 
 |@mitsue/eslint-config|ESLint|
 |-:|-:|
+|未リリース|>=8.5.0|
 |4.1.0|>=7.30.0|
 |4.0.1|^7.15.0|
 |3.0.0|^7.4.0|
@@ -92,7 +93,10 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ### 未リリース
 
-いまのところ変更点はありません。
+- 対象とするESLint（peerDependencies）を>=8.5.0に変更
+- ルールに関する調整
+    - [no-unused-private-class-members](https://eslint.org/docs/rules/no-unused-private-class-members)を2（エラー）に設定
+    - [prefer-object-has-own](https://eslint.org/docs/rules/prefer-object-has-own)を0に設定
 
 ### 4.1.0
 
