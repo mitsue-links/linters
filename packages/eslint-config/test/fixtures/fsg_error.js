@@ -39,14 +39,6 @@ alpha = 'foo';
 }());
 /* eslint-enable no-unused-vars */
 
-// 5-1
-(function () {
-    'use strict';
-
-    parseInt('0xFF');
-    parseInt('0377');
-}());
-
 // 6-1
 /* eslint-disable no-unused-vars */
 (function () {

@@ -737,7 +737,7 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/radix
-        radix: 2,
+        radix: 0,
 
         // https://eslint.org/docs/rules/require-await
         'require-await': 2,
