@@ -40,16 +40,22 @@ function summarizeLintResults(results) {
     }));
 }
 
-/**
- * @param {string} filePath
- */
-export async function lintFile(filePath) {
+function createESLint() {
     const __dirname = fileURLToPath(new URL('./', import.meta.url));
 
     const engine = new ESLint({
         cwd: __dirname,
         overrideConfigFile: path.join(__dirname, '..', '.eslintrc.json'),
     });
+
+    return engine;
+}
+
+/**
+ * @param {string} filePath
+ */
+export async function lintFile(filePath) {
+    const engine = createESLint();
 
     const results = await engine.lintFiles(filePath);
 
