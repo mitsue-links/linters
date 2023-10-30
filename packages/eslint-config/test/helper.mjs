@@ -40,7 +40,7 @@ function summarizeLintResults(results) {
     }));
 }
 
-function createESLint() {
+export function createESLint() {
     const __dirname = fileURLToPath(new URL('./', import.meta.url));
 
     const engine = new ESLint({
