@@ -92,6 +92,8 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ### 未リリース
 
+- parserOptionsのsourceTypeをmoduleに変更
+    - 拡張子がcjsの場合はsourceTypeをscriptに設定
 - ルールに関する調整
     - [radix](https://eslint.org/docs/latest/rules/radix)を0（オフ）に設定
 

@@ -2,7 +2,7 @@
   "name": "@mitsue/eslint-config",
   "version": "4.1.0",
   "description": "eslint config for Mitsue-Links",
-  "main": "index.js",
+  "main": "index.cjs",
   "files": [
     "README.md",
     "LICENSE",

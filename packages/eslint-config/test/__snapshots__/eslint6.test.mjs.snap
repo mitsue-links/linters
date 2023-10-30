@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint 6.2.0 6.2.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "6.2.0_error.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      {
+        "line": 8,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      {
+        "line": 10,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+      {
+        "line": 14,
+        "ruleId": "function-call-argument-newline",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.4.0 6.4.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "6.4.0_error.mjs",
+    "messages": [
+      {
+        "line": 5,
+        "ruleId": "prefer-regex-literals",
+        "severity": 2,
+      },
+      {
+        "line": 10,
+        "ruleId": "default-param-last",
+        "severity": 2,
+      },
+      {
+        "line": 21,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+      {
+        "line": 25,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+      {
+        "line": 29,
+        "ruleId": "computed-property-spacing",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.5.0 6.5.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "6.5.0_error.mjs",
+    "messages": [
+      {
+        "line": 5,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      {
+        "line": 12,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.6.0 6.6.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "6.6.0_error.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      {
+        "line": 5,
+        "ruleId": "use-isnan",
+        "severity": 2,
+      },
+      {
+        "line": 14,
+        "ruleId": "no-unsafe-negation",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 6.7.0 6.7.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "6.7.0_error.mjs",
+    "messages": [
+      {
+        "line": 13,
+        "ruleId": "grouped-accessor-pairs",
+        "severity": 2,
+      },
+      {
+        "line": 26,
+        "ruleId": "no-constructor-return",
+        "severity": 2,
+      },
+      {
+        "line": 42,
+        "ruleId": "no-dupe-else-if",
+        "severity": 2,
+      },
+      {
+        "line": 59,
+        "ruleId": "no-setter-return",
+        "severity": 2,
+      },
+      {
+        "line": 68,
+        "ruleId": "prefer-exponentiation-operator",
+        "severity": 2,
+      },
+      {
+        "line": 76,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      {
+        "line": 78,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      {
+        "line": 80,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      {
+        "line": 82,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+      {
+        "line": 84,
+        "ruleId": "no-useless-computed-key",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
