@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`commonjs_error.cjs 1`] = `
+[
+  {
+    "filePath": "commonjs_error.cjs",
+    "messages": [
+      {
+        "line": 3,
+        "ruleId": "no-restricted-syntax",
+        "severity": 2,
+      },
+      {
+        "line": 3,
+        "ruleId": "no-with",
+        "severity": 2,
+      },
+      {
+        "line": 4,
+        "ruleId": "no-loss-of-precision",
+        "severity": 1,
+      },
+      {
+        "line": 4,
+        "ruleId": "no-octal",
+        "severity": 2,
+      },
+      {
+        "line": 5,
+        "ruleId": "no-octal",
+        "severity": 2,
+      },
+      {
+        "line": 7,
+        "ruleId": "no-octal-escape",
+        "severity": 2,
+      },
+      {
+        "line": 8,
+        "ruleId": "no-octal-escape",
+        "severity": 2,
+      },
+      {
+        "line": 10,
+        "ruleId": "no-nonoctal-decimal-escape",
+        "severity": 2,
+      },
+      {
+        "line": 11,
+        "ruleId": "no-nonoctal-decimal-escape",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`commonjs_error.mjs 1`] = `
+[
+  {
+    "filePath": "commonjs_error.mjs",
+    "messages": [
+      {
+        "line": 3,
+        "ruleId": "Parsing error: 'with' in strict mode",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`commonjs_ok.mjs 1`] = `
+[
+  {
+    "filePath": "commonjs_ok.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "strict",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

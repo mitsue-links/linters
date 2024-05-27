@@ -1,7 +1,7 @@
 # ESLint用設定
 
 -   [@mitsue/eslint-config](../packages/eslint-config/)
--   [@mitsue/eslint-config-es5](../packages/eslint-config-es5/)
+-   @mitsue/eslint-config-es5（廃止）
 
 ## メンテナンス
 

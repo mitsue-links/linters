@@ -10,10 +10,6 @@
 
     ECMAScriptを対象にしたESLintの設定ファイルです。
 
-- [@mitsue/eslint-config-es5](./packages/eslint-config-es5/)
-
-    ECMAScript 5を対象にしたESLintの設定ファイルです。
-
 ## ドキュメント
 
 -   [メンテナー向けドキュメント](docs/README.md)
