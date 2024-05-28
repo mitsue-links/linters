@@ -398,6 +398,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-empty-function
         'no-empty-function': 2,
 
+        // https://eslint.org/docs/latest/rules/no-empty-static-block
+        'no-empty-static-block': 2,
+
         // https://eslint.org/docs/rules/no-eq-null
         'no-eq-null': 2,
 

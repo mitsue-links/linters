@@ -103,6 +103,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
     - [no-constant-binary-expression](https://eslint.org/docs/latest/rules/no-constant-binary-expression)を2（エラー）に設定
     - [logical-assignment-operators](https://eslint.org/docs/latest/rules/logical-assignment-operators)を2（エラー）に設定
     - [no-new-native-nonconstructor](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)を2（エラー）に設定
+    - [no-empty-static-block](https://eslint.org/docs/latest/rules/no-empty-static-block)を2（エラー）に設定
 
 ### 4.1.0
 
