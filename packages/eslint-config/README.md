@@ -95,7 +95,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 - parserOptionsのsourceTypeをmoduleに変更
     - 拡張子がcjsの場合はsourceTypeをscriptに設定
-- 対象とするESLint（peerDependencies）を>=8.5.0に変更
+- 対象とするESLint（peerDependencies）を>=8.52.0に変更
 - ルールに関する調整
     - [radix](https://eslint.org/docs/latest/rules/radix)を0（オフ）に設定
     - [no-unused-private-class-members](https://eslint.org/docs/rules/no-unused-private-class-members)を2（エラー）に設定
