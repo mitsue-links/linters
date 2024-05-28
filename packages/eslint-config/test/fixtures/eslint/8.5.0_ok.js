@@ -1,8 +1,6 @@
 // prefer-object-has-own
 /* eslint-disable no-console */
 (() => {
-    'use strict';
-
     const obj = Object.create(null);
 
     obj.foo = 'bar';
