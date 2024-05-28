@@ -496,6 +496,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
         'no-nonoctal-decimal-escape': 2,
 
+        // https://eslint.org/docs/latest/rules/no-object-constructor
+        'no-object-constructor': 2,
+
         // https://eslint.org/docs/rules/no-octal
         'no-octal': 2,
 
