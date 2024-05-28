@@ -54,6 +54,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-const-assign
         'no-const-assign': 2,
 
+        // https://eslint.org/docs/latest/rules/no-constant-binary-expression
+        'no-constant-binary-expression': 2,
+
         // https://eslint.org/docs/rules/no-constant-condition
         'no-constant-condition': 2,
 
@@ -116,6 +119,9 @@ module.exports = {
 
         // https://eslint.org/docs/rules/no-misleading-character-class
         'no-misleading-character-class': 2,
+
+        // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
+        'no-new-native-nonconstructor': 2,
 
         // https://eslint.org/docs/rules/no-new-symbol
         'no-new-symbol': 2,
@@ -322,6 +328,9 @@ module.exports = {
 
         // https://eslint.org/docs/rules/init-declarations
         'init-declarations': 0,
+
+        // https://eslint.org/docs/latest/rules/logical-assignment-operators
+        'logical-assignment-operators': 2,
 
         // https://eslint.org/docs/rules/max-classes-per-file
         'max-classes-per-file': 0,
