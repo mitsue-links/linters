@@ -577,9 +577,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-return-assign
         'no-return-assign': 2,
 
-        // https://eslint.org/docs/rules/no-return-await
-        'no-return-await': 2,
-
         // https://eslint.org/docs/rules/no-script-url
         'no-script-url': 2,
 
