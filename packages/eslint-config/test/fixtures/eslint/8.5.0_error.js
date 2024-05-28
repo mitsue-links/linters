@@ -1,5 +1,4 @@
 // prefer-object-has-own
-/* eslint prefer-object-has-own: 2 */
 /* eslint-disable no-console */
 (() => {
     const obj = Object.create(null);
