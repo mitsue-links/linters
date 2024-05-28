@@ -71,7 +71,7 @@ exports[`ESLint 7.15.0 7.15.0_error.mjs 1`] = `
     "filePath": "7.15.0_error.mjs",
     "messages": [
       {
-        "line": 3,
+        "line": 4,
         "ruleId": "no-unsafe-optional-chaining",
         "severity": 2,
       },
