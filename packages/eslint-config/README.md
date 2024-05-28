@@ -105,6 +105,9 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
     - [no-new-native-nonconstructor](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)を2（エラー）に設定
     - [no-empty-static-block](https://eslint.org/docs/latest/rules/no-empty-static-block)を2（エラー）に設定
     - [no-object-constructor](https://eslint.org/docs/latest/rules/no-object-constructor)を2（エラー）に設定
+- 非推奨になったルールの削除
+    - [no-return-await](https://eslint.org/docs/latest/rules/no-return-await)
+    - [no-new-object](https://eslint.org/docs/rules/no-new-object)
 
 ### 4.1.0
 
