@@ -721,7 +721,7 @@ module.exports = {
         'prefer-numeric-literals': 2,
 
         // https://eslint.org/docs/rules/prefer-object-has-own
-        'prefer-object-has-own': 0, // enable when stable version of safari support Object.hasOwn
+        'prefer-object-has-own': 2,
 
         // https://eslint.org/docs/rules/prefer-object-spread
         'prefer-object-spread': 2,

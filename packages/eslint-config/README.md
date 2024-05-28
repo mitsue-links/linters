@@ -99,7 +99,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 - ルールに関する調整
     - [radix](https://eslint.org/docs/latest/rules/radix)を0（オフ）に設定
     - [no-unused-private-class-members](https://eslint.org/docs/rules/no-unused-private-class-members)を2（エラー）に設定
-    - [prefer-object-has-own](https://eslint.org/docs/rules/prefer-object-has-own)を0（オフ）に設定
+    - [prefer-object-has-own](https://eslint.org/docs/rules/prefer-object-has-own)を2（オフ）に設定
     - [no-constant-binary-expression](https://eslint.org/docs/latest/rules/no-constant-binary-expression)を2（エラー）に設定
     - [logical-assignment-operators](https://eslint.org/docs/latest/rules/logical-assignment-operators)を2（エラー）に設定
     - [no-new-native-nonconstructor](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)を2（エラー）に設定
