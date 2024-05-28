@@ -487,9 +487,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-new-func
         'no-new-func': 2,
 
-        // https://eslint.org/docs/rules/no-new-object
-        'no-new-object': 2,
-
         // https://eslint.org/docs/rules/no-new-wrappers
         'no-new-wrappers': 2,
 
