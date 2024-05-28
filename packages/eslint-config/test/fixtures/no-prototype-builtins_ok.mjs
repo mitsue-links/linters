@@ -1,5 +1,5 @@
 // no-prototype-builtins
-/* eslint-disable no-console */
+/* eslint-disable no-console, prefer-object-has-own */
 (() => {
     const obj = Object.create(null);
 
