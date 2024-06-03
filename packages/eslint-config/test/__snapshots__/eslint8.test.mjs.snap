@@ -90,26 +90,6 @@ exports[`ESLint 8.14.0 8.14.0_error.js 1`] = `
 ]
 `;
 
-exports[`ESLint 8.24.0 8.24.0_error.js 1`] = `
-[
-  {
-    "filePath": "8.24.0_error.js",
-    "messages": [
-      {
-        "line": 7,
-        "ruleId": "logical-assignment-operators",
-        "severity": 2,
-      },
-      {
-        "line": 8,
-        "ruleId": "logical-assignment-operators",
-        "severity": 2,
-      },
-    ],
-  },
-]
-`;
-
 exports[`ESLint 8.27.0 8.27.0_error.js 1`] = `
 [
   {
