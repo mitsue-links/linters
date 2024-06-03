@@ -64,3 +64,98 @@ exports[`ESLint 8.5.0 8.5.0_error.js 1`] = `
   },
 ]
 `;
+
+exports[`ESLint 8.14.0 8.14.0_error.js 1`] = `
+[
+  {
+    "filePath": "8.14.0_error.js",
+    "messages": [
+      {
+        "line": 7,
+        "ruleId": "no-constant-binary-expression",
+        "severity": 2,
+      },
+      {
+        "line": 12,
+        "ruleId": "no-constant-binary-expression",
+        "severity": 2,
+      },
+      {
+        "line": 16,
+        "ruleId": "no-constant-binary-expression",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 8.24.0 8.24.0_error.js 1`] = `
+[
+  {
+    "filePath": "8.24.0_error.js",
+    "messages": [
+      {
+        "line": 7,
+        "ruleId": "logical-assignment-operators",
+        "severity": 2,
+      },
+      {
+        "line": 8,
+        "ruleId": "logical-assignment-operators",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 8.27.0 8.27.0_error.js 1`] = `
+[
+  {
+    "filePath": "8.27.0_error.js",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "no-empty-static-block",
+        "severity": 2,
+      },
+      {
+        "line": 8,
+        "ruleId": "no-new-native-nonconstructor",
+        "severity": 2,
+      },
+      {
+        "line": 8,
+        "ruleId": "no-new-symbol",
+        "severity": 2,
+      },
+      {
+        "line": 9,
+        "ruleId": "no-new-native-nonconstructor",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 8.50.0 8.50.0_error.js 1`] = `
+[
+  {
+    "filePath": "8.50.0_error.js",
+    "messages": [
+      {
+        "line": 3,
+        "ruleId": "no-object-constructor",
+        "severity": 2,
+      },
+      {
+        "line": 5,
+        "ruleId": "no-object-constructor",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
