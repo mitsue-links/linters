@@ -334,7 +334,7 @@ module.exports = {
         'init-declarations': 0,
 
         // https://eslint.org/docs/latest/rules/logical-assignment-operators
-        'logical-assignment-operators': 2,
+        'logical-assignment-operators': 0,
 
         // https://eslint.org/docs/rules/max-classes-per-file
         'max-classes-per-file': 0,
