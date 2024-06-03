@@ -11,9 +11,9 @@ jobs:
     name: Test (node.js 14 on ubuntu-latest)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.4.0
+      - uses: actions/checkout@v4.1.1
       - name: Use node.js 14
-        uses: actions/setup-node@v3.6.0
+        uses: actions/setup-node@v4.0.0
         with:
           node-version: 14
       - name: Install npm@v8
