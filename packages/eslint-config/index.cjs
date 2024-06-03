@@ -123,8 +123,7 @@ module.exports = {
         // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
         'no-new-native-nonconstructor': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-new-symbol
+        // TODO: 削除 https://eslint.org/docs/rules/no-new-symbol
         'no-new-symbol': 2,
 
         // https://eslint.org/docs/rules/no-obj-calls
@@ -357,8 +356,7 @@ module.exports = {
         // https://eslint.org/docs/rules/max-statements
         'max-statements': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/multiline-comment-style
+        // TODO: 削除 https://eslint.org/docs/rules/multiline-comment-style
         'multiline-comment-style': 2,
 
         // https://eslint.org/docs/rules/new-cap
@@ -379,8 +377,7 @@ module.exports = {
         // https://eslint.org/docs/rules/no-case-declarations
         'no-case-declarations': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-confusing-arrow
+        // TODO: 削除 https://eslint.org/docs/rules/no-confusing-arrow
         'no-confusing-arrow': 2,
 
         // https://eslint.org/docs/rules/no-console
@@ -425,12 +422,10 @@ module.exports = {
         // https://eslint.org/docs/rules/no-extra-label
         'no-extra-label': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-extra-semi
+        // TODO: 削除 https://eslint.org/docs/rules/no-extra-semi
         'no-extra-semi': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-floating-decimal
+        // TODO: 削除 https://eslint.org/docs/rules/no-floating-decimal
         'no-floating-decimal': 2,
 
         // https://eslint.org/docs/rules/no-global-assign
@@ -477,8 +472,7 @@ module.exports = {
         // https://eslint.org/docs/rules/no-magic-numbers
         'no-magic-numbers': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-mixed-operators
+        // TODO: 削除 https://eslint.org/docs/rules/no-mixed-operators
         'no-mixed-operators': 2,
 
         // https://eslint.org/docs/rules/no-multi-assign
@@ -684,8 +678,7 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/one-var-declaration-per-line
+        // TODO: 削除 https://eslint.org/docs/rules/one-var-declaration-per-line
         'one-var-declaration-per-line': 0,
 
         // https://eslint.org/docs/rules/operator-assignment
@@ -756,8 +749,7 @@ module.exports = {
         // https://eslint.org/docs/rules/prefer-template
         'prefer-template': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/quote-props
+        // TODO: 削除 https://eslint.org/docs/rules/quote-props
         'quote-props': [
             2,
             'as-needed',
@@ -784,8 +776,7 @@ module.exports = {
         // https://eslint.org/docs/rules/sort-vars
         'sort-vars': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/spaced-comment
+        // TODO: 削除 https://eslint.org/docs/rules/spaced-comment
         'spaced-comment': [
             2,
             'always',
@@ -820,41 +811,34 @@ module.exports = {
          * Layout & Formatting
          */
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/array-bracket-newline
+        // TODO: 削除 https://eslint.org/docs/rules/array-bracket-newline
         'array-bracket-newline': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/array-bracket-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/array-bracket-spacing
         'array-bracket-spacing': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/array-element-newline
+        // TODO: 削除 https://eslint.org/docs/rules/array-element-newline
         'array-element-newline': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/arrow-parens
+        // TODO: 削除 https://eslint.org/docs/rules/arrow-parens
         'arrow-parens': [
             2,
             'always',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/arrow-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/arrow-spacing
         'arrow-spacing': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/block-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/block-spacing
         'block-spacing': [
             2,
             'always',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/brace-style
+        // TODO: 削除 https://eslint.org/docs/rules/brace-style
         'brace-style': [
             2,
             '1tbs',
@@ -863,15 +847,13 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/comma-dangle
+        // TODO: 削除 https://eslint.org/docs/rules/comma-dangle
         'comma-dangle': [
             2,
             'always-multiline',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/comma-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/comma-spacing
         'comma-spacing': [
             2,
             {
@@ -880,15 +862,13 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/comma-style
+        // TODO: 削除 https://eslint.org/docs/rules/comma-style
         'comma-style': [
             2,
             'last',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/computed-property-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/computed-property-spacing
         'computed-property-spacing': [
             2,
             'never',
@@ -897,40 +877,34 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/dot-location
+        // TODO: 削除 https://eslint.org/docs/rules/dot-location
         'dot-location': [
             2,
             'object',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/eol-last
+        // TODO: 削除 https://eslint.org/docs/rules/eol-last
         'eol-last': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/func-call-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/func-call-spacing
         'func-call-spacing': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/function-call-argument-newline
+        // TODO: 削除 https://eslint.org/docs/rules/function-call-argument-newline
         'function-call-argument-newline': [
             2,
             'consistent',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/function-paren-newline
+        // TODO: 削除 https://eslint.org/docs/rules/function-paren-newline
         'function-paren-newline': [
             2,
             'multiline',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/generator-star-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/generator-star-spacing
         'generator-star-spacing': [
             2,
             {
@@ -951,15 +925,13 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/implicit-arrow-linebreak
+        // TODO: 削除 https://eslint.org/docs/rules/implicit-arrow-linebreak
         'implicit-arrow-linebreak': [
             2,
             'beside',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/indent
+        // TODO: 削除 https://eslint.org/docs/rules/indent
         indent: [
             2,
             4,
@@ -990,38 +962,31 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/jsx-quotes
+        // TODO: 削除 https://eslint.org/docs/rules/jsx-quotes
         'jsx-quotes': [
             2,
             'prefer-double',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/key-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/key-spacing
         'key-spacing': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/keyword-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/keyword-spacing
         'keyword-spacing': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/line-comment-position
+        // TODO: 削除 https://eslint.org/docs/rules/line-comment-position
         'line-comment-position': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/linebreak-style
+        // TODO: 削除 https://eslint.org/docs/rules/linebreak-style
         'linebreak-style': [
             2,
             'unix',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/lines-around-comment
+        // TODO: 削除 https://eslint.org/docs/rules/lines-around-comment
         'lines-around-comment': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/lines-between-class-members
+        // TODO: 削除 https://eslint.org/docs/rules/lines-between-class-members
         'lines-between-class-members': [
             2,
             'always',
@@ -1030,43 +995,34 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/max-len
+        // TODO: 削除 https://eslint.org/docs/rules/max-len
         'max-len': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/max-statements-per-line
+        // TODO: 削除 https://eslint.org/docs/rules/max-statements-per-line
         'max-statements-per-line': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/multiline-ternary
+        // TODO: 削除 https://eslint.org/docs/rules/multiline-ternary
         'multiline-ternary': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/new-parens
+        // TODO: 削除 https://eslint.org/docs/rules/new-parens
         'new-parens': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/newline-per-chained-call
+        // TODO: 削除 https://eslint.org/docs/rules/newline-per-chained-call
         'newline-per-chained-call': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-extra-parens
+        // TODO: 削除 https://eslint.org/docs/rules/no-extra-parens
         'no-extra-parens': [
             2,
             'functions',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
+        // TODO: 削除 https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
         'no-mixed-spaces-and-tabs': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-multi-spaces
+        // TODO: 削除 https://eslint.org/docs/rules/no-multi-spaces
         'no-multi-spaces': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-multiple-empty-lines
+        // TODO: 削除 https://eslint.org/docs/rules/no-multiple-empty-lines
         'no-multiple-empty-lines': [
             2,
             {
@@ -1074,12 +1030,10 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-tabs
+        // TODO: 削除 https://eslint.org/docs/rules/no-tabs
         'no-tabs': 1,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-trailing-spaces
+        // TODO: 削除 https://eslint.org/docs/rules/no-trailing-spaces
         'no-trailing-spaces': [
             2,
             {
@@ -1088,45 +1042,37 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/no-whitespace-before-property
+        // TODO: 削除 https://eslint.org/docs/rules/no-whitespace-before-property
         'no-whitespace-before-property': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/nonblock-statement-body-position
+        // TODO: 削除 https://eslint.org/docs/rules/nonblock-statement-body-position
         'nonblock-statement-body-position': [
             2,
             'beside',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/object-curly-newline
+        // TODO: 削除 https://eslint.org/docs/rules/object-curly-newline
         'object-curly-newline': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/object-curly-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/object-curly-spacing
         'object-curly-spacing': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/object-property-newline
+        // TODO: 削除 https://eslint.org/docs/rules/object-property-newline
         'object-property-newline': 2,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/operator-linebreak
+        // TODO: 削除 https://eslint.org/docs/rules/operator-linebreak
         'operator-linebreak': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/padded-blocks
+        // TODO: 削除 https://eslint.org/docs/rules/padded-blocks
         'padded-blocks': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/padding-line-between-statements
+        // TODO: 削除 https://eslint.org/docs/rules/padding-line-between-statements
         'padding-line-between-statements': [
             2,
             {
@@ -1164,30 +1110,26 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/quotes
+        // TODO: 削除 https://eslint.org/docs/rules/quotes
         quotes: [
             2,
             'single',
             'avoid-escape',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/rest-spread-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/rest-spread-spacing
         'rest-spread-spacing': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/semi
+        // TODO: 削除 https://eslint.org/docs/rules/semi
         semi: [
             2,
             'always',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/semi-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/semi-spacing
         'semi-spacing': [
             2,
             {
@@ -1196,22 +1138,19 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/semi-style
+        // TODO: 削除 https://eslint.org/docs/rules/semi-style
         'semi-style': [
             2,
             'last',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/space-before-blocks
+        // TODO: 削除 https://eslint.org/docs/rules/space-before-blocks
         'space-before-blocks': [
             2,
             'always',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/space-before-function-paren
+        // TODO: 削除 https://eslint.org/docs/rules/space-before-function-paren
         'space-before-function-paren': [
             2,
             {
@@ -1221,15 +1160,13 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/space-in-parens
+        // TODO: 削除 https://eslint.org/docs/rules/space-in-parens
         'space-in-parens': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/space-infix-ops
+        // TODO: 削除 https://eslint.org/docs/rules/space-infix-ops
         'space-infix-ops': [
             2,
             {
@@ -1237,8 +1174,7 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/space-unary-ops
+        // TODO: 削除 https://eslint.org/docs/rules/space-unary-ops
         'space-unary-ops': [
             2,
             {
@@ -1247,8 +1183,7 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/switch-colon-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/switch-colon-spacing
         'switch-colon-spacing': [
             2,
             {
@@ -1257,15 +1192,13 @@ module.exports = {
             },
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/template-curly-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/template-curly-spacing
         'template-curly-spacing': [
             2,
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/template-tag-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/template-tag-spacing
         'template-tag-spacing': [
             2,
             'never',
@@ -1277,19 +1210,16 @@ module.exports = {
             'never',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/wrap-iife
+        // TODO: 削除 https://eslint.org/docs/rules/wrap-iife
         'wrap-iife': [
             2,
             'outside',
         ],
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/wrap-regex
+        // TODO: 削除 https://eslint.org/docs/rules/wrap-regex
         'wrap-regex': 0,
 
-        // TODO: 削除
-        // https://eslint.org/docs/rules/yield-star-spacing
+        // TODO: 削除 https://eslint.org/docs/rules/yield-star-spacing
         'yield-star-spacing': [
             2,
             {
