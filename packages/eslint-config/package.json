@@ -1,6 +1,6 @@
 {
   "name": "@mitsue/eslint-config",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "eslint config for Mitsue-Links",
   "main": "index.cjs",
   "files": [
@@ -27,6 +27,6 @@
     "directory": "packages/eslint-config"
   },
   "peerDependencies": {
-    "eslint": ">=7.30.0"
+    "eslint": "8.52.0"
   }
 }
