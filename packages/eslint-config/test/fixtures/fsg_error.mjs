@@ -42,7 +42,7 @@ alpha = 'foo';
 
     const f = new Function('this', 'is', 'danger', 'return this + is + danger');
 }());
-/* eslint-enable no-unused-vars, vars-on-top */
+/* eslint-enable no-unused-vars */
 
 // 7-1
 (function () {

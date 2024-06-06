@@ -1,13 +1,9 @@
-// no-prototype-builtins
-/* eslint-disable no-console, prefer-object-has-own */
+// prefer-object-has-own
+/* eslint-disable no-console */
 (() => {
     const obj = Object.create(null);
 
     obj.foo = 'bar';
-
-    for (const key of Object.keys(obj)) {
-        console.log(key, obj[key]);
-    }
 
     for (const key in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, key)) {
@@ -15,4 +11,3 @@
         }
     }
 })();
-/* eslint-enable no-console */
