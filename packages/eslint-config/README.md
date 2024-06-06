@@ -76,6 +76,7 @@ npm i --save--dev eslint-config-prettier
 
 |@mitsue/eslint-config|ESLint|
 |-:|-:|
+|6.0.0|>=8.53.0|
 |5.0.0|8.52.0|
 |4.1.0|>=7.30.0|
 |4.0.1|^7.15.0|
@@ -90,6 +91,79 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 古いバージョンのESLintを利用していないか（このパッケージのpeerDependenciesに指定されているバージョンと合致しているかどうか）ご確認ください。
 
 ## 変更履歴
+
+### 6.0.0
+
+- 対象とするESLint（peerDependencies）を>=8.53.0に変更
+- 非推奨になったスタイルの削除
+    - [array-bracket-newline](https://eslint.org/docs/latest/rules/array-bracket-newline)
+    - [array-bracket-spacing](https://eslint.org/docs/latest/rules/array-bracket-spacing)
+    - [array-element-newline](https://eslint.org/docs/latest/rules/array-element-newline)
+    - [arrow-parens](https://eslint.org/docs/latest/rules/arrow-parens)
+    - [arrow-spacing](https://eslint.org/docs/latest/rules/arrow-spacing)
+    - [block-spacing](https://eslint.org/docs/latest/rules/block-spacing)
+    - [brace-style](https://eslint.org/docs/latest/rules/brace-style)
+    - [comma-dangle](https://eslint.org/docs/latest/rules/comma-dangle)
+    - [comma-spacing](https://eslint.org/docs/latest/rules/comma-spacing)
+    - [comma-style](https://eslint.org/docs/latest/rules/comma-style)
+    - [computed-property-spacing](https://eslint.org/docs/latest/rules/computed-property-spacing)
+    - [dot-location](https://eslint.org/docs/latest/rules/dot-location)
+    - [eol-last](https://eslint.org/docs/latest/rules/eol-last)
+    - [func-call-spacing](https://eslint.org/docs/latest/rules/func-call-spacing)
+    - [function-call-argument-newline](https://eslint.org/docs/latest/rules/function-call-argument-newline)
+    - [function-paren-newline](https://eslint.org/docs/latest/rules/function-paren-newline)
+    - [generator-star-spacing](https://eslint.org/docs/latest/rules/generator-star-spacing)
+    - [implicit-arrow-linebreak](https://eslint.org/docs/latest/rules/implicit-arrow-linebreak)
+    - [indent](https://eslint.org/docs/latest/rules/indent)
+    - [jsx-quotes](https://eslint.org/docs/latest/rules/jsx-quotes)
+    - [key-spacing](https://eslint.org/docs/latest/rules/key-spacing)
+    - [keyword-spacing](https://eslint.org/docs/latest/rules/keyword-spacing)
+    - [linebreak-style](https://eslint.org/docs/latest/rules/linebreak-style)
+    - [lines-between-class-members](https://eslint.org/docs/latest/rules/lines-between-class-members)
+    - [lines-around-comment](https://eslint.org/docs/latest/rules/lines-around-comment)
+    - [max-len](https://eslint.org/docs/latest/rules/max-len)
+    - [max-statements-per-line](https://eslint.org/docs/latest/rules/max-statements-per-line)
+    - [multiline-ternary](https://eslint.org/docs/latest/rules/multiline-ternary)
+    - [new-parens](https://eslint.org/docs/latest/rules/new-parens)
+    - [newline-per-chained-call](https://eslint.org/docs/latest/rules/newline-per-chained-call)
+    - [no-confusing-arrow](https://eslint.org/docs/latest/rules/no-confusing-arrow)
+    - [no-extra-parens](https://eslint.org/docs/latest/rules/no-extra-parens)
+    - [no-extra-semi](https://eslint.org/docs/latest/rules/no-extra-semi)
+    - [no-floating-decimal](https://eslint.org/docs/latest/rules/no-floating-decimal)
+    - [no-mixed-operators](https://eslint.org/docs/latest/rules/no-mixed-operators)
+    - [no-mixed-spaces-and-tabs](https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs)
+    - [no-multi-spaces](https://eslint.org/docs/latest/rules/no-multi-spaces)
+    - [no-multiple-empty-lines](https://eslint.org/docs/latest/rules/no-multiple-empty-lines)
+    - [no-tabs](https://eslint.org/docs/latest/rules/no-tabs)
+    - [no-trailing-spaces](https://eslint.org/docs/latest/rules/no-trailing-spaces)
+    - [no-whitespace-before-property](https://eslint.org/docs/latest/rules/no-whitespace-before-property)
+    - [nonblock-statement-body-position](https://eslint.org/docs/latest/rules/nonblock-statement-body-position)
+    - [object-curly-newline](https://eslint.org/docs/latest/rules/object-curly-newline)
+    - [object-curly-spacing](https://eslint.org/docs/latest/rules/object-curly-spacing)
+    - [object-property-newline](https://eslint.org/docs/latest/rules/object-property-newline)
+    - [one-var-declaration-per-line](https://eslint.org/docs/latest/rules/one-var-declaration-per-line)
+    - [operator-linebreak](https://eslint.org/docs/latest/rules/operator-linebreak)
+    - [padded-blocks](https://eslint.org/docs/latest/rules/padded-blocks)
+    - [padding-line-between-statements](https://eslint.org/docs/latest/rules/padding-line-between-statements)
+    - [quote-props](https://eslint.org/docs/latest/rules/quote-props)
+    - [quotes](https://eslint.org/docs/latest/rules/quotes)
+    - [rest-spread-spacing](https://eslint.org/docs/latest/rules/rest-spread-spacing)
+    - [semi](https://eslint.org/docs/latest/rules/semi)
+    - [semi-spacing](https://eslint.org/docs/latest/rules/semi-spacing)
+    - [semi-style](https://eslint.org/docs/latest/rules/semi-style)
+    - [space-before-blocks](https://eslint.org/docs/latest/rules/space-before-blocks)
+    - [space-before-function-paren](https://eslint.org/docs/latest/rules/space-before-function-paren)
+    - [space-in-parens](https://eslint.org/docs/latest/rules/space-in-parens)
+    - [space-infix-ops](https://eslint.org/docs/latest/rules/space-infix-ops)
+    - [space-unary-ops](https://eslint.org/docs/latest/rules/space-unary-ops)
+    - [spaced-comment](https://eslint.org/docs/latest/rules/spaced-comment)
+    - [switch-colon-spacing](https://eslint.org/docs/latest/rules/switch-colon-spacing)
+    - [template-curly-spacing](https://eslint.org/docs/latest/rules/template-curly-spacing)
+    - [template-tag-spacing](https://eslint.org/docs/latest/rules/template-tag-spacing)
+    - [wrap-iife](https://eslint.org/docs/latest/rules/wrap-iife)
+    - [wrap-regex](https://eslint.org/docs/latest/rules/wrap-regex)
+    - [yield-star-spacing](https://eslint.org/docs/latest/rules/yield-star-spacing)
+
 
 ### 5.0.0
 
