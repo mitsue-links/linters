@@ -1,5 +1,5 @@
 // function-call-argument-newline
-/* eslint-disable no-unused-vars, no-undef, object-property-newline, object-curly-spacing */
+/* eslint-disable no-unused-vars, no-undef */
 (function () {
     foo('one', 'two', 'three');
     // or
@@ -41,4 +41,4 @@
         },
     );
 }());
-/* eslint-enable no-unused-vars, no-undef, object-property-newline, object-curly-spacing */
+/* eslint-enable no-unused-vars, no-undef */

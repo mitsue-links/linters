@@ -21,21 +21,6 @@ exports[`fsg_error.mjs 1`] = `
         "severity": 2,
       },
       {
-        "line": 11,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 12,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 13,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
         "line": 13,
         "ruleId": "no-undef",
         "severity": 2,
@@ -52,27 +37,12 @@ exports[`fsg_error.mjs 1`] = `
       },
       {
         "line": 14,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 14,
         "ruleId": "no-undef",
         "severity": 2,
       },
       {
         "line": 14,
         "ruleId": "no-undef",
-        "severity": 2,
-      },
-      {
-        "line": 21,
-        "ruleId": "brace-style",
-        "severity": 2,
-      },
-      {
-        "line": 21,
-        "ruleId": "brace-style",
         "severity": 2,
       },
       {
@@ -151,148 +121,13 @@ exports[`fsg_error.mjs 1`] = `
         "severity": 2,
       },
       {
-        "line": 101,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 101,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
-        "line": 102,
-        "ruleId": "no-mixed-spaces-and-tabs",
-        "severity": 2,
-      },
-      {
-        "line": 102,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
-        "line": 103,
-        "ruleId": "no-mixed-spaces-and-tabs",
-        "severity": 2,
-      },
-      {
-        "line": 103,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
-        "line": 104,
-        "ruleId": "no-mixed-spaces-and-tabs",
-        "severity": 2,
-      },
-      {
-        "line": 104,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
-        "line": 105,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 105,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
-        "line": 107,
-        "ruleId": "indent",
-        "severity": 2,
-      },
-      {
-        "line": 107,
-        "ruleId": "no-tabs",
-        "severity": 1,
-      },
-      {
         "line": 114,
         "ruleId": "one-var",
         "severity": 2,
       },
       {
-        "line": 114,
-        "ruleId": "comma-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 114,
-        "ruleId": "comma-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 117,
-        "ruleId": "key-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 118,
-        "ruleId": "key-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 124,
-        "ruleId": "key-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 125,
-        "ruleId": "key-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 129,
-        "ruleId": "switch-colon-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 132,
-        "ruleId": "switch-colon-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 135,
-        "ruleId": "switch-colon-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 139,
-        "ruleId": "space-infix-ops",
-        "severity": 2,
-      },
-      {
-        "line": 139,
-        "ruleId": "space-infix-ops",
-        "severity": 2,
-      },
-      {
-        "line": 139,
-        "ruleId": "space-infix-ops",
-        "severity": 2,
-      },
-      {
         "line": 142,
         "ruleId": "curly",
-        "severity": 2,
-      },
-      {
-        "line": 142,
-        "ruleId": "nonblock-statement-body-position",
-        "severity": 2,
-      },
-      {
-        "line": 144,
-        "ruleId": "space-unary-ops",
-        "severity": 2,
-      },
-      {
-        "line": 146,
-        "ruleId": "space-unary-ops",
         "severity": 2,
       },
     ],
