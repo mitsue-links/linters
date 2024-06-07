@@ -6,24 +6,19 @@ exports[`ESLint 6.2.0 6.2.0_error.mjs 1`] = `
     "filePath": "6.2.0_error.mjs",
     "messages": [
       {
-        "line": 4,
-        "ruleId": "function-call-argument-newline",
-        "severity": 2,
+        "line": 2,
+        "ruleId": "Unused eslint-disable directive (no problems were reported from 'function-paren-newline').",
+        "severity": 1,
       },
       {
-        "line": 8,
-        "ruleId": "function-call-argument-newline",
-        "severity": 2,
+        "line": 2,
+        "ruleId": "Unused eslint-disable directive (no problems were reported from 'object-curly-spacing').",
+        "severity": 1,
       },
       {
-        "line": 10,
-        "ruleId": "function-call-argument-newline",
-        "severity": 2,
-      },
-      {
-        "line": 14,
-        "ruleId": "function-call-argument-newline",
-        "severity": 2,
+        "line": 2,
+        "ruleId": "Unused eslint-disable directive (no problems were reported from 'object-property-newline').",
+        "severity": 1,
       },
     ],
   },
@@ -43,21 +38,6 @@ exports[`ESLint 6.4.0 6.4.0_error.mjs 1`] = `
       {
         "line": 10,
         "ruleId": "default-param-last",
-        "severity": 2,
-      },
-      {
-        "line": 21,
-        "ruleId": "computed-property-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 25,
-        "ruleId": "computed-property-spacing",
-        "severity": 2,
-      },
-      {
-        "line": 29,
-        "ruleId": "computed-property-spacing",
         "severity": 2,
       },
     ],

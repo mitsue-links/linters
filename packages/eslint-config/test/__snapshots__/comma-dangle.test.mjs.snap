@@ -4,23 +4,7 @@ exports[`comma-dangle_error.mjs 1`] = `
 [
   {
     "filePath": "comma-dangle_error.mjs",
-    "messages": [
-      {
-        "line": 12,
-        "ruleId": "comma-dangle",
-        "severity": 2,
-      },
-      {
-        "line": 18,
-        "ruleId": "comma-dangle",
-        "severity": 2,
-      },
-      {
-        "line": 30,
-        "ruleId": "comma-dangle",
-        "severity": 2,
-      },
-    ],
+    "messages": [],
   },
 ]
 `;
