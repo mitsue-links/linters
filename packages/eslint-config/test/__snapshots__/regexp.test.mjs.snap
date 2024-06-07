@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`regexp_error.mjs 1`] = `
+[
+  {
+    "filePath": "regexp_error.mjs",
+    "messages": [
+      {
+        "line": 3,
+        "ruleId": "require-unicode-regexp",
+        "severity": 2,
+      },
+      {
+        "line": 9,
+        "ruleId": "prefer-named-capture-group",
+        "severity": 2,
+      },
+      {
+        "line": 9,
+        "ruleId": "prefer-named-capture-group",
+        "severity": 2,
+      },
+      {
+        "line": 9,
+        "ruleId": "prefer-named-capture-group",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

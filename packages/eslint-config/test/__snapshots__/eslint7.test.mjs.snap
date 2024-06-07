@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ESLint 7.0.0 7.0.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "7.0.0_error.mjs",
+    "messages": [
+      {
+        "line": 5,
+        "ruleId": "default-case-last",
+        "severity": 2,
+      },
+      {
+        "line": 16,
+        "ruleId": "default-case-last",
+        "severity": 2,
+      },
+      {
+        "line": 27,
+        "ruleId": "no-useless-backreference",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 7.1.0 7.1.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "7.1.0_error.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "no-loss-of-precision",
+        "severity": 1,
+      },
+      {
+        "line": 10,
+        "ruleId": "no-loss-of-precision",
+        "severity": 1,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 7.3.0 7.3.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "7.3.0_error.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "no-promise-executor-return",
+        "severity": 2,
+      },
+      {
+        "line": 21,
+        "ruleId": "no-unreachable-loop",
+        "severity": 1,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 7.15.0 7.15.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "7.15.0_error.mjs",
+    "messages": [
+      {
+        "line": 4,
+        "ruleId": "no-unsafe-optional-chaining",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;

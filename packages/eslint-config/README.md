@@ -76,6 +76,7 @@ npm i --save--dev eslint-config-prettier
 
 |@mitsue/eslint-config|ESLint|
 |-:|-:|
+|5.0.0|8.52.0|
 |4.1.0|>=7.30.0|
 |4.0.1|^7.15.0|
 |3.0.0|^7.4.0|
@@ -90,9 +91,24 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 
 ## 変更履歴
 
-### 未リリース
+### 5.0.0
 
-いまのところ変更点はありません。
+- parserOptionsのsourceTypeをmoduleに変更
+    - 拡張子がcjsの場合はsourceTypeをscriptに設定
+- 対象とするESLint（peerDependencies）を8.52.0に変更
+- ルールに関する調整
+    - [radix](https://eslint.org/docs/latest/rules/radix)を0（オフ）に設定
+    - [no-unused-private-class-members](https://eslint.org/docs/rules/no-unused-private-class-members)を2（エラー）に設定
+    - [prefer-object-has-own](https://eslint.org/docs/rules/prefer-object-has-own)を2（エラー）に変更
+    - [no-constant-binary-expression](https://eslint.org/docs/latest/rules/no-constant-binary-expression)を2（エラー）に設定
+    - [logical-assignment-operators](https://eslint.org/docs/latest/rules/logical-assignment-operators)を0（オフ）に設定
+    - [no-new-native-nonconstructor](https://eslint.org/docs/latest/rules/no-new-native-nonconstructor)を2（エラー）に設定
+    - [no-empty-static-block](https://eslint.org/docs/latest/rules/no-empty-static-block)を2（エラー）に設定
+    - [no-object-constructor](https://eslint.org/docs/latest/rules/no-object-constructor)を2（エラー）に設定
+- 非推奨になったルールの削除
+    - [no-return-await](https://eslint.org/docs/latest/rules/no-return-await)
+    - [no-new-object](https://eslint.org/docs/rules/no-new-object)
+- テスト環境をNode.js v20に変更
 
 ### 4.1.0
 

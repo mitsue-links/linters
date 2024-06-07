@@ -7,11 +7,12 @@
   "scripts": {
     "jsgl": "jsgl -l .",
     "lint": "eslint . --ignore-path _dot_eslintignore",
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" jest"
   },
   "devDependencies": {
     "@types/eslint": "^8.40.0",
-    "eslint": "^8.42.0",
+    "cross-env": "^7.0.3",
+    "eslint": "8.52.0",
     "jest": "^29.7.0",
     "js-green-licenses": "^4.0.0"
   }
