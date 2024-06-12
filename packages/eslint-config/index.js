@@ -14,7 +14,6 @@ export default {
         serviceworker: true,
         es2024: true,
     },
-    reportUnusedDisableDirectives: true,
     /*
      * see also:
      * http://eslint.org/docs/rules/
