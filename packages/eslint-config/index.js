@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     /*
      * see also:
      * https://eslint.org/docs/user-guide/configuring
