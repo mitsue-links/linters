@@ -27,6 +27,6 @@
     "directory": "packages/eslint-config"
   },
   "peerDependencies": {
-    "eslint": "^8.53.0"
+    "eslint": ">= 9.0.0"
   }
 }
