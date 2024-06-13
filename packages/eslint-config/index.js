@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     /*
      * see also:
      * https://eslint.org/docs/user-guide/configuring
@@ -14,7 +14,6 @@ module.exports = {
         serviceworker: true,
         es2024: true,
     },
-    reportUnusedDisableDirectives: true,
     /*
      * see also:
      * http://eslint.org/docs/rules/
@@ -123,9 +122,6 @@ module.exports = {
         // https://eslint.org/docs/latest/rules/no-new-native-nonconstructor
         'no-new-native-nonconstructor': 2,
 
-        // TODO: 削除 https://eslint.org/docs/rules/no-new-symbol
-        'no-new-symbol': 2,
-
         // https://eslint.org/docs/rules/no-obj-calls
         'no-obj-calls': 2,
 
@@ -202,8 +198,8 @@ module.exports = {
         // https://eslint.org/docs/rules/no-use-before-define
         'no-use-before-define': 2,
 
-        // TODO:
-        'no-useless-assignment': 0,
+        // https://eslint.org/docs/latest/rules/no-useless-assignment
+        'no-useless-assignment': 2,
 
         // https://eslint.org/docs/rules/no-useless-backreference
         'no-useless-backreference': 2,
@@ -355,9 +351,6 @@ module.exports = {
 
         // https://eslint.org/docs/rules/max-statements
         'max-statements': 0,
-
-        // TODO: 削除 https://eslint.org/docs/rules/multiline-comment-style
-        'multiline-comment-style': 2,
 
         // https://eslint.org/docs/rules/new-cap
         'new-cap': 2,
@@ -613,9 +606,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-useless-computed-key
         'no-useless-computed-key': [
             2,
-            {
-                enforceForClassMembers: true,
-            },
         ],
 
         // https://eslint.org/docs/rules/no-useless-concat
@@ -773,9 +763,6 @@ module.exports = {
         /*
          * Layout & Formatting
          */
-
-        // TODO: 削除 https://eslint.org/docs/rules/line-comment-position
-        'line-comment-position': 0,
 
         // https://eslint.org/docs/rules/unicode-bom
         'unicode-bom': [

@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": "./index.cjs",
+  "extends": "./index.js",
   "env": {
     "jest": true
   }
