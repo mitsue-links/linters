@@ -130,6 +130,11 @@ exports[`fsg_error.mjs 1`] = `
         "ruleId": "curly",
         "severity": 2,
       },
+      {
+        "line": 146,
+        "ruleId": "no-useless-assignment",
+        "severity": 2,
+      },
     ],
   },
 ]

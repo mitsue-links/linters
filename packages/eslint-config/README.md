@@ -10,72 +10,41 @@ npm i --save-dev eslint @mitsue/eslint-config
 
 ## 使用方法
 
-.eslintrc.jsonに下記を追加してください。
+eslint.config.jsに下記を追加してください。
 
-```json
-{
-  "extends": [
-    "@mitsue"
-  ]
-}
-```
+```js
+import mitsueEslintConfig from "@mitsue/eslint-config";
 
-### ECMAScript Modulesを使う場合
-
-.eslintrc.jsonを調整します。parserOptionsに`"sourceType": "module"`を記載します。
-
-```json
-{
-  "extends": [
-    "@mitsue"
-  ],
-  "parserOptions": {
-    "sourceType": "module"
-  }
-}
+export default [
+    ...mitsueEslintConfig,
+    {
+        // ここに固有の設定を記載
+    }
+]
 ```
 
 ### 改行コードがCR+LFの場合
 
-.eslintrc.jsonを調整します。rulesのlinebreak-styleに`[2, "windows"]`を記載します。
+eslint.config.jsを調整します。rulesのlinebreak-styleに`[2, "windows"]`を記載します。
 
-```json
-{
-  "extends": [
-    "@mitsue"
-  ],
-  "rules": {
-    "linebreak-style": [2, "windows"]
-  }
-}
-```
+```js
+import mitsueEslintConfig from "@mitsue/eslint-config";
 
-### Prettierと一緒に使う場合
-
-[Prettierの公式ドキュメント](https://prettier.io/docs/en/integrating-with-linters.html)を参考にしてください。
-
-必要なパッケージをインストールします。
-
-```sh
-npm i --save--dev eslint-config-prettier
-```
-
-.eslintrc.jsonを調整します。extendsの最後にprettierとprettier/prettierを記載します。
-
-```json
-{
-  "extends": [
-    "@mitsue",
-    "prettier",
-    "prettier/prettier"
-  ]
-}
+export default [
+    ...mitsueEslintConfig,
+    {
+        rules: {
+            "linebreak-style": [2, "windows"]
+        }
+    }
+]
 ```
 
 ## ESLintとの対応関係
 
 |@mitsue/eslint-config|ESLint|
 |-:|-:|
+|7.0.0|>=9.4.0|
 |6.0.0|>=8.53.0|
 |5.0.0|8.52.0|
 |4.1.0|>=7.30.0|
@@ -91,6 +60,17 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 古いバージョンのESLintを利用していないか（このパッケージのpeerDependenciesに指定されているバージョンと合致しているかどうか）ご確認ください。
 
 ## 変更履歴
+
+### 7.0.0
+
+- 対象とするESLint（peerDependencies）を>=9.4.0に変更
+- 設定ファイルをFlatConfig形式に変更
+- 非推奨になったルールの削除
+    - [no-new-symbol](https://eslint.org/docs/latest/rules/no-new-symbol)
+    - [multiline-comment-style](https://eslint.org/docs/latest/rules/multiline-comment-style)
+    - [line-comment-position](https://eslint.org/docs/latest/rules/line-comment-position)
+- 新しいルールの追加
+    - [no-useless-assignment](https://eslint.org/docs/latest/rules/no-useless-assignment)を2（エラー）に設定
 
 ### 6.0.0
 
