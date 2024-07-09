@@ -71,6 +71,7 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
     - [line-comment-position](https://eslint.org/docs/latest/rules/line-comment-position)
 - 新しいルールの追加
     - [no-useless-assignment](https://eslint.org/docs/latest/rules/no-useless-assignment)を2（エラー）に設定
+- チェック対象が`.cjs`の場合は[sourceType](https://eslint.org/docs/latest/use/configure/language-options#specifying-javascript-options)を`commonjs`に設定
 
 ### 6.0.0
 
