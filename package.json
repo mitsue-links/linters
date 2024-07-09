@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "jsgl": "jsgl -l .",
-    "lint": "eslint . --ignore-path _dot_eslintignore",
+    "lint": "eslint . -c packages/eslint-config/eslint.config.mjs",
     "test": "cross-env NODE_OPTIONS=\"--experimental-vm-modules\" jest"
   },
   "devDependencies": {
