@@ -106,11 +106,6 @@ exports[`ESLint 8.27.0 8.27.0_error.js 1`] = `
         "severity": 2,
       },
       {
-        "line": 8,
-        "ruleId": "no-new-symbol",
-        "severity": 2,
-      },
-      {
         "line": 9,
         "ruleId": "no-new-native-nonconstructor",
         "severity": 2,

@@ -45,7 +45,7 @@ export function createESLint() {
 
     const engine = new ESLint({
         cwd: __dirname,
-        overrideConfigFile: path.join(__dirname, '..', '.eslintrc.json'),
+        overrideConfigFile: path.join(__dirname, '..', 'eslint.config.mjs'),
     });
 
     return engine;
