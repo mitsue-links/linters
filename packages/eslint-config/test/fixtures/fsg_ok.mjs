@@ -5,7 +5,7 @@
 
 
 // 3-1
-/* eslint-disable no-global-assign, no-undef, no-unused-vars */
+/* eslint-disable no-unused-vars */
 (function () {
     (function () {
         // ...
@@ -34,15 +34,19 @@
         type: 'stable',
     };
 
-    if (changed) {
+    let status = 'ng';
+
+    if (o.checked) {
         status = 'ok';
     }
 
-    for (i = 0; i < nitems; i++) {
+    const nitems = 10;
+
+    for (let i = 0; i < nitems; i++) {
         // ...
     }
 }());
-/* eslint-enable no-global-assign, no-undef, no-unused-vars */
+/* eslint-enable no-unused-vars */
 
 // 4-1
 /* eslint-disable no-unused-vars */

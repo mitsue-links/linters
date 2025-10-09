@@ -46,6 +46,16 @@ exports[`fsg_error.mjs 1`] = `
         "severity": 2,
       },
       {
+        "line": 21,
+        "ruleId": "no-global-assign",
+        "severity": 2,
+      },
+      {
+        "line": 21,
+        "ruleId": "no-implicit-globals",
+        "severity": 1,
+      },
+      {
         "line": 28,
         "ruleId": "camelcase",
         "severity": 2,

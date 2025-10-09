@@ -16,11 +16,11 @@ alpha = 'foo';
 /* eslint-enable no-unused-vars */
 
 // 3-1
-/* eslint-disable no-global-assign, no-undef */
+/* eslint-disable no-undef */
 (function () {
     if (changed) { status = 'ok'; }
 }());
-/* eslint-enable no-global-assign, no-undef */
+/* eslint-enable no-undef */
 
 // 4-1
 /* eslint-disable no-unused-vars */
