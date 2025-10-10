@@ -157,6 +157,9 @@ export default [
             // https://eslint.org/docs/rules/no-this-before-super
             'no-this-before-super': 2,
 
+            // https://eslint.org/docs/latest/rules/no-unassigned-vars
+            'no-unassigned-vars': 2,
+
             // https://eslint.org/docs/rules/no-undef
             'no-undef': 2,
 
@@ -726,6 +729,9 @@ export default [
 
             // https://eslint.org/docs/rules/prefer-template
             'prefer-template': 2,
+
+            // https://eslint.org/docs/latest/rules/preserve-caught-error
+            'preserve-caught-error': 2,
 
             // https://eslint.org/docs/rules/radix
             radix: 0,

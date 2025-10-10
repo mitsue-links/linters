@@ -17,11 +17,6 @@ exports[`commonjs_error.cjs 1`] = `
       },
       {
         "line": 4,
-        "ruleId": "no-loss-of-precision",
-        "severity": 1,
-      },
-      {
-        "line": 4,
         "ruleId": "no-octal",
         "severity": 2,
       },

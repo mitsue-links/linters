@@ -14,3 +14,32 @@ exports[`ESLint 9.0.0 9.0.0_error.mjs 1`] = `
   },
 ]
 `;
+
+exports[`ESLint 9.37.0 9.37.0_error.mjs 1`] = `
+[
+  {
+    "filePath": "9.37.0_error.js",
+    "messages": [
+      {
+        "line": 5,
+        "ruleId": "no-unassigned-vars",
+        "severity": 2,
+      },
+      {
+        "line": 16,
+        "ruleId": "preserve-caught-error",
+        "severity": 2,
+      },
+    ],
+  },
+]
+`;
+
+exports[`ESLint 9.37.0 9.37.0_ok.mjs 1`] = `
+[
+  {
+    "filePath": "9.37.0_ok.js",
+    "messages": [],
+  },
+]
+`;

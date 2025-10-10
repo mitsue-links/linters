@@ -44,6 +44,7 @@ export default [
 
 |@mitsue/eslint-config|ESLint|
 |-:|-:|
+|8.0.0|>=9.37.0|
 |7.0.0|>=9.4.0|
 |6.0.0|>=8.53.0|
 |5.0.0|8.52.0|
@@ -60,6 +61,13 @@ ESLintは未知のルールが設定されているとエラーを報告しま�
 古いバージョンのESLintを利用していないか（このパッケージのpeerDependenciesに指定されているバージョンと合致しているかどうか）ご確認ください。
 
 ## 変更履歴
+
+### 8.0.0
+
+- 対象とするESLint（peerDependencies）を>=9.37.0に変更
+- 新しいルールの追加
+    - [no-unassigned-vars](https://eslint.org/docs/latest/rules/no-unassigned-vars)を2（エラー）に設定
+    - [preserve-caught-error](https://eslint.org/docs/latest/rules/preserve-caught-error)を2（エラー）に設定
 
 ### 7.0.0
 
