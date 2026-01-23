@@ -30,6 +30,6 @@
     "eslint": ">= 9.37.0"
   },
   "dependencies": {
-    "globals": "^16.4.0"
+    "globals": "^17.1.0"
   }
 }
